@@ -1,0 +1,863 @@
+.DS_Store
+.gitattributes
+.github/.DS_Store
+.github/workflows/ci.yml
+LICENSE
+benchmarks-computing/00-early.md
+benchmarks-computing/01-first.md
+benchmarks-computing/02-second.md
+benchmarks-computing/03-third.md
+benchmarks-computing/04-fourth.md
+docs/.DS_Store
+docs/Homepages/.DS_Store
+docs/Homepages/2.0_S1_Home.md
+docs/Homepages/3.0_S2_Home.md
+docs/Homepages/4.0_S3_Home.md
+docs/Homepages/5.0_L5_Home.md
+docs/Homepages/6.0_L6_Home.md
+docs/Homepages/7.0_L7_Home.md
+docs/Homepages/Images/.DS_Store
+docs/Homepages/Images/Advanced_Higher_Computing_Science.png
+docs/Homepages/Images/Higher_Computing_Science.png
+docs/Homepages/Images/National_4-5_Homepage_Banner.png
+docs/Levels/.DS_Store
+docs/Levels/BGE/.DS_Store
+docs/Levels/BGE/Global_Images/Hopper.png
+docs/Levels/BGE/Global_Images/Turing.png
+docs/Levels/BGE/S1/.DS_Store
+docs/Levels/BGE/S1/Turtle_Programming/.DS_Store
+docs/Levels/BGE/S1/Turtle_Programming/1.0_Home.md
+docs/Levels/BGE/S1/Turtle_Programming/2.0_Introducing_the_Turtle.md
+docs/Levels/BGE/S1/Turtle_Programming/3.0_Movement_and_Colour.md
+docs/Levels/BGE/S1/Turtle_Programming/Images/.DS_Store
+docs/Levels/BGE/S1/Turtle_Programming/Images/MU_1.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/MU_2.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Presentation1.pptx
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_1.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_10.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_11.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_12.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_13.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_14.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_15.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_16.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_17.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_18.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_19.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_2.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_20.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_21.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_22.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_23.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_24.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_25.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_26.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_27.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_28.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_29.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_3.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_30.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_31.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_32.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_32.svg
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_33.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_34.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_35.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_4.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_5.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_6.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_7.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_8.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_9.png
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_9.png.webp
+docs/Levels/BGE/S1/Turtle_Programming/Images/Turtle_9.webp
+docs/Levels/BGE/S1/Turtle_Programming/Solutions.md
+docs/Levels/BGE/S1/Turtle_Programming/test.md
+docs/Levels/BGE/S1/index.md
+docs/Levels/BGE/S2/Python_Programming/1.0_Homepage.md
+docs/Levels/BGE/S2/Python_Programming/2.0_Intro_to_Python.md
+docs/Levels/BGE/S2/Python_Programming/3.0_Selection.md
+docs/Levels/BGE/S2/Python_Programming/Extra_Credit_Tasks.md
+docs/Levels/BGE/S2/S2_index.md
+docs/Levels/BGE/S3/.DS_Store
+docs/Levels/BGE/S3/Introduction To Python/index.md
+docs/Levels/BGE/S3/Makecode Arcade/.DS_Store
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/.DS_Store
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/.DS_Store
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_01.svg
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_02.svg
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_03.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_04.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_05.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_06.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_07.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_08.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_09.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_02.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_04.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_05.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_06.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_07.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_08.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_09.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_01_Section_Advanced_Functions.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_02_Create_Function.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_03_Section_Advanced_Arrays.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_04.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_05.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_06.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_07.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_08.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_0.2.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_0.3.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_01.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_03.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_04.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_06.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_07.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_08.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_09.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_1.2.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_1.3.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_10.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_11.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_12.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_13.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_14.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_15.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_16.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_17.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_18.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_19.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_20.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_21.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_22.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_01.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_02.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_03.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_04.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_05.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_06.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_07.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_09.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Alien.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Choose.svg
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Extensions_Browser_Events.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Section_Extensions.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Section_Variables.png
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Turing.svg
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Temp.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/instructions.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/(TEMP)_Spawning_Enemies copy.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/1.0_Setting_up_the_Player.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/2.0_Shooting_Lasers.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/3.0_Adding_Enemies.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/4.0_Spawning_Enemies.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/5.0_Adding_the_Bonus.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/6.0_Polish_and_UI.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/7.0_Level_Up.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/_Destroying_Enemies.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/_Game_Over.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/lessons.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/space_invaders_index.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/presentations/01_Player_Setup_slides.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/presentations/02_Shooting_Lasers_slides.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/presentations/03_Adding_Enemies_slides.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/presentations/04_Destroying_Enemies_slides.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/presentations/05_Spawning_Enemies_slides.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/presentations/06_Adding_Bonus_slides.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/presentations/07_Game_Over_slides.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/presentations/08_Polish_and_UI_slides.md
+docs/Levels/BGE/S3/Makecode Arcade/Space_Invaders/presentations/09_Level_Up_slides.md
+docs/Levels/BGE/S3/index.md
+docs/Levels/BGE/index.md
+docs/Levels/Senior_Phase/.DS_Store
+docs/Levels/Senior_Phase/Advanced_Higher_Project/1.0_Description_of_the_Problem.md
+docs/Levels/Senior_Phase/Advanced_Higher_Project/Images/UML.jpeg
+docs/Levels/Senior_Phase/Unit_1_SDD/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L5/5.0_Home.md
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L5/Images/Software_Development_Lifecycle.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L5/Images/Waterfall_Method.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/6.0_index.md
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/6.1_The_Iterative_Development_Process.md
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/6.2_Agile_Methodologies.md
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/Images/Agile.png
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/Images/Software_Development_Lifecycle.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/Images/Waterfall_Method.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L5/5.0_index.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L6/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L6/6.0_index.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.0_index.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.1_Economic.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.2_Time.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.3_Legal.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.4_Technical.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.5_User_Surveys.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1_Feasability_Studies.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.6.1_Scheduling.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.6.2_Resources.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.6.3_Gant_Charts.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.6_Project_Planning.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.7_UCD.md
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Cost_Benefit_Chart.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Example_Cost_Breakdown.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Gannt1.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Gannt2.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Gannt3.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/School_Library_System.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Actors.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Association.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Extend.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Generalisation_of_a_Use_Case.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Generalisation_of_an_Actor.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Include.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_System Boundary.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_System_Boundary.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Use_Cases.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase1.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase2.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase3.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase4.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase5.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase6.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase7.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase8.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase9.png
+docs/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/generel.txt
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.0_index copy.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.0_index.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.1_Data_Types_and_Structures.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.2_Structure_Diagrams.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.3_Flowcharts.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.4_Pseudocode.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Elif-Flowchart.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Flowchart-Example1.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Flowchart-Example2.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/IF-Flowchart.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Example-1.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Example-2.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Example-3.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Example-4.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Symbols.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.0_index.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.1_Structure_Diagrams.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.3-Data-Flow-In-Out.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.3-Main-Algorithm-and-Refinements.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.3_Pseudocode.md
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Data_Flow.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Data_Flow.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Data_Flow_Table.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Refinements.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Refinements.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Structure_Diagram.png
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Structure_Diagram.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Structure_Diagram_01.svg
+docs/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L7/7.1_UML.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.0_Home.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.10_Running_Total_Within_a_Loop.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.11_Input_Validation.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.1_Input_and_Output.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.2_Variables_and_Data_Types.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.3_Arrays.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.4_Simple_Conditional_Statements.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.5_Complex_Conditional_Statements.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.6_Fixed_Loops_(for).md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.7_Conditional_Loops_(while).md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.8_Pre_Defined_Functions.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.9_Traversing_a_1d_Array.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/List.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/List2.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/List3.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/Simple-Conditional-Statements-.drawio.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/Simple-Conditional-Statements-1.drawio.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.0_index copy.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.0_index.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.0_index12.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.10_File_Handling(.txt).md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.11_Algorithms_(Linear_Search).md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.12_Algorithms_(Finding_Min_and_Max).md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.13_Algorithms_(Count_Occurances).md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.1_Parallel_1D_Arrays.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.2_Records.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.3_Arrays_of_Records copy.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.3_Arrays_of_Records.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.4_Parameter_Passing.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.5_Scope_of_Variables.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.6_Sub-Programs_(Procedures).md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.7_Sub-Programs_(Functions).md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.8_Pre-Defined_Functions.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.9_File_Handling(.csv).md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Min-and-Max-1.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-1.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-2.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-3.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-4.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-5.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/bit_and_bobs.txt
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/4.7-Class.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/4.9-Objects.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/5.1-SQLite-with-Python.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.0_index copy.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.0_index.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.10_OOP_Inheritance.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.11_OOP_Instantiation.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.12_OOP_Polymorphism.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.13_Connect_to_DB.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.14_Binary_Search copy.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.14_Binary_Search.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.15_Insertation_Sort.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.15_Insertation_Sort1.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.16_Bubble_Sort.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.1_2d_Arrays.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.2_Insertation_Sorts.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.3_Linked_Lists.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.4_OOP_Object.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.5_OOP_Property.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.6_OOP_Method.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.7_OOP_Class.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.8_OOP_Sub_Class.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.9_OOP_Encapsulation.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/ComputerScience.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-1.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-2.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-3.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-4.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-5.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-6.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-7.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-8.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-9.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-1.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-2.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-3.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-4.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-5.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/UML_Class_Diagram_1.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/UML_Class_Diagram_2.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Under-Construction.png
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Object_Oriented_Programming.md
+docs/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/class_car().py
+docs/Levels/Senior_Phase/Unit_1_SDD/5.0_Testing/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/5.0_Testing/L5/5.0_Home.md
+docs/Levels/Senior_Phase/Unit_1_SDD/5.0_Testing/L6/6.1-Trace-Tables.md
+docs/Levels/Senior_Phase/Unit_1_SDD/6.0_Evaluation/.DS_Store
+docs/Levels/Senior_Phase/Unit_1_SDD/6.0_Evaluation/L5/5.0_Home.md
+docs/Levels/Senior_Phase/Unit_2_CS/.DS_Store
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/.DS_Store
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/5.0_Home.md
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/.DS_Store
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Computer_Architecture_1.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Computer_Architecture_2.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Computer_Architecture_3.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Computer_Architecture_4.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Data_Representation_1.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Data_Representation_2.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Data_Representation_3.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Data_Representation_4.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Graphics_1.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Graphics_2.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Graphics_3.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Mantissa_and_Exponent_1.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Mantissa_and_Exponent_2.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Security_1.png
+docs/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Security_2.png
+docs/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/5.0_Home.md
+docs/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/Images/.DS_Store
+docs/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/Images/Computer_Architecture_1.png
+docs/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/Images/Computer_Architecture_2.png
+docs/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/Images/Computer_Architecture_3.png
+docs/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/Images/Computer_Architecture_4.png
+docs/Levels/Senior_Phase/Unit_2_CS/3.0_Security_and_Encryption/L5/5.0_Home.md
+docs/Levels/Senior_Phase/Unit_2_CS/3.0_Security_and_Encryption/L5/Images/.DS_Store
+docs/Levels/Senior_Phase/Unit_2_CS/3.0_Security_and_Encryption/L5/Images/Security_1.png
+docs/Levels/Senior_Phase/Unit_2_CS/3.0_Security_and_Encryption/L5/Images/Security_2.png
+docs/Levels/Senior_Phase/Unit_3_DDD/.DS_Store
+docs/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/4.0_index.md
+docs/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/Images/04_01.png
+docs/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/Images/04_02.png
+docs/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/Images/04_03.png
+docs/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/Images/04_04.png
+docs/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L5/5.0_index.md
+docs/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L5/Data Protection.md
+docs/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L5/Images/02_01.png
+docs/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L6/6.0_index.md
+docs/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L6/Images/02_01.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/3.1-DB-Relationships.md
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/3.2-Data-Dictionaries.md
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/3.3-Query-Design.md
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Attribute-Data-Types.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Attribute-Size.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Attribute-Types.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Example-Designing-a-Query.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Primary-Foreign-Key.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Query-Design-Example-Q.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Validation.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/Dog-Walkers.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/ERD.png
+docs/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/Mother-Child.png
+docs/Levels/Senior_Phase/Unit_3_DDD/4.0_Implementation/L4-5/4.1-SQL-Select.md
+docs/Levels/Senior_Phase/Unit_3_DDD/4.0_Implementation/L4-5/4.2-SQL-Insert.md
+docs/Levels/Senior_Phase/Unit_3_DDD/4.0_Implementation/L4-5/4.3-SQL-Equi-Joins.md
+docs/Levels/Senior_Phase/Unit_3_DDD/5.0_Testing/5.1-DB-Testing.md
+docs/Levels/Senior_Phase/Unit_3_DDD/6.0_Evaluation/5.2-DB-Evaluation.md
+docs/Levels/Senior_Phase/Unit_3_DDD/index.md
+docs/Levels/Senior_Phase/Unit_4_WDD/Div_Class_Div_ID.md
+docs/Levels/Senior_Phase/Unit_4_WDD/Picture 1.png
+docs/Levels/Senior_Phase/Unit_4_WDD/css-selectors.md
+docs/Levels/Senior_Phase/Unit_4_WDD/media-tags.md
+docs/Program_Files/.DS_Store
+docs/Program_Files/02-Scope-of-Variables-and-Parameter-Passing/Monthly-Pay-(Formal-and-Actual-Parameters)-Solution.py
+docs/Program_Files/5.2-Glazing-Company.py
+docs/Program_Files/Glazing_Company_Program.csv
+docs/Program_Files/Golf-Championship.py
+docs/Program_Files/Insertation-Sort-1D-Array.py
+docs/Program_Files/Insertation-Sort-2D-Array.py
+docs/Program_Files/Past-Papers/Example-1.pdf
+docs/Program_Files/Past-Papers/Example-2.pdf
+docs/Program_Files/Past-Papers/Example-3.pdf
+docs/Program_Files/Past-Papers/NAH_Computing-Science_QP_2019.PDF
+docs/Program_Files/Past-Papers/NAH_Computing-Science_QP_2022.PDF
+docs/Program_Files/Past-Papers/NAH_Computing-Science_QP_2023.PDF
+docs/Program_Files/Past-Papers/NAH_Computing-Science_QP_2024.PDF
+docs/Styles/extra.css
+docs/index.md
+docs/scripts/extra.js
+mkdocs.yml
+site/404.html
+site/Homepages/2.0_S1_Home/index.html
+site/Homepages/3.0_S2_Home/index.html
+site/Homepages/4.0_S3_Home/index.html
+site/Homepages/5.0_L5_Home/index.html
+site/Homepages/6.0_L6_Home/index.html
+site/Homepages/7.0_L7_Home/index.html
+site/Homepages/Images/Advanced_Higher_Computing_Science.png
+site/Homepages/Images/Higher_Computing_Science.png
+site/Homepages/Images/National_4-5_Homepage_Banner.png
+site/Levels/BGE/Global_Images/Hopper.png
+site/Levels/BGE/Global_Images/Turing.png
+site/Levels/BGE/S1/Turtle_Programming/1.0_Home/index.html
+site/Levels/BGE/S1/Turtle_Programming/2.0_Introducing_the_Turtle/index.html
+site/Levels/BGE/S1/Turtle_Programming/3.0_Movement_and_Colour/index.html
+site/Levels/BGE/S1/Turtle_Programming/Images/MU_1.png
+site/Levels/BGE/S1/Turtle_Programming/Images/MU_2.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Presentation1.pptx
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_1.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_10.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_11.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_12.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_13.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_14.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_15.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_16.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_17.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_18.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_19.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_2.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_20.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_21.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_22.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_23.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_24.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_25.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_26.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_27.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_28.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_29.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_3.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_30.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_31.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_32.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_32.svg
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_33.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_34.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_35.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_4.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_5.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_6.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_7.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_8.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_9.png
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_9.png.webp
+site/Levels/BGE/S1/Turtle_Programming/Images/Turtle_9.webp
+site/Levels/BGE/S1/Turtle_Programming/Solutions/index.html
+site/Levels/BGE/S1/Turtle_Programming/test/index.html
+site/Levels/BGE/S1/index.html
+site/Levels/BGE/S2/Python_Programming/1.0_Homepage/index.html
+site/Levels/BGE/S2/Python_Programming/2.0_Intro_to_Python/index.html
+site/Levels/BGE/S2/Python_Programming/3.0_Selection/index.html
+site/Levels/BGE/S2/Python_Programming/Extra_Credit_Tasks/index.html
+site/Levels/BGE/S2/S2_index/index.html
+site/Levels/BGE/S3/Introduction To Python/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/(TEMP)_Spawning_Enemies copy/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/1.0_Setting_up_the_Player/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/2.0_Shooting_Lasers/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/3.0_Adding_Enemies/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/4.0_Spawning_Enemies/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/5.0_Adding_the_Bonus/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/6.0_Polish_and_UI/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/7.0_Level_Up/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_01.svg
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_02.svg
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_03.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_04.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_05.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_06.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_07.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_08.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/01_09.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_02.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_04.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_05.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_06.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_07.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_08.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/02_09.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_01_Section_Advanced_Functions.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_02_Create_Function.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_03_Section_Advanced_Arrays.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_04.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_05.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_06.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_07.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/03_08.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_0.2.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_0.3.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_01.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_03.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_04.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_06.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_07.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_08.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_09.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_1.2.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_1.3.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_10.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_11.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_12.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_13.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_14.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_15.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_16.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_17.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_18.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_19.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_20.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_21.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/04_22.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_01.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_02.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_03.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_04.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_05.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_06.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_07.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/05_09.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Alien.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Choose.svg
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Extensions_Browser_Events.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Section_Extensions.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Section_Variables.png
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Images/Turing.svg
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/Temp/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/_Destroying_Enemies/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/_Game_Over/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/lessons/index.html
+site/Levels/BGE/S3/Makecode Arcade/Space_Invaders/space_invaders_index/index.html
+site/Levels/BGE/S3/index.html
+site/Levels/BGE/index.html
+site/Levels/Senior_Phase/Advanced_Higher_Project/1.0_Description_of_the_Problem/index.html
+site/Levels/Senior_Phase/Advanced_Higher_Project/Images/UML.jpeg
+site/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L5/5.0_Home/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L5/Images/Software_Development_Lifecycle.svg
+site/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L5/Images/Waterfall_Method.svg
+site/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/6.0_index/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/6.1_The_Iterative_Development_Process/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/6.2_Agile_Methodologies/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/Images/Agile.png
+site/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/Images/Software_Development_Lifecycle.svg
+site/Levels/Senior_Phase/Unit_1_SDD/1.0_Development_Methodologies/L6/Images/Waterfall_Method.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L5/5.0_index/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L6/6.0_index/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.0_index/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.1_Economic/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.2_Time/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.3_Legal/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.4_Technical/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1.5_User_Surveys/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.1_Feasability_Studies/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.6.1_Scheduling/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.6.2_Resources/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.6.3_Gant_Charts/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.6_Project_Planning/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/7.7_UCD/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Cost_Benefit_Chart.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Example_Cost_Breakdown.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Gannt1.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Gannt2.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/Gannt3.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/School_Library_System.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Actors.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Association.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Extend.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Generalisation_of_a_Use_Case.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Generalisation_of_an_Actor.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Include.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_System Boundary.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_System_Boundary.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UCD_Use_Cases.svg
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase1.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase2.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase3.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase4.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase5.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase6.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase7.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase8.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/Images/UseCase9.png
+site/Levels/Senior_Phase/Unit_1_SDD/2.0_Analysis/L7/generel.txt
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.0_index copy/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.0_index/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.1_Data_Types_and_Structures/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.2_Structure_Diagrams/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.3_Flowcharts/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/5.4_Pseudocode/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Elif-Flowchart.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Flowchart-Example1.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Flowchart-Example2.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/IF-Flowchart.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Example-1.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Example-2.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Example-3.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Example-4.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L5/Images/Structure-Diagram-Symbols.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.0_index/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.1_Structure_Diagrams/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.3-Data-Flow-In-Out/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.3-Main-Algorithm-and-Refinements/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/6.3_Pseudocode/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Data_Flow.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Data_Flow.svg
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Data_Flow_Table.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Refinements.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Refinements.svg
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Structure_Diagram.png
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Structure_Diagram.svg
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L6/Images/SD_Structure_Diagram_01.svg
+site/Levels/Senior_Phase/Unit_1_SDD/3.0_Design/L7/7.1_UML/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.0_Home/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.10_Running_Total_Within_a_Loop/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.11_Input_Validation/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.1_Input_and_Output/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.2_Variables_and_Data_Types/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.3_Arrays/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.4_Simple_Conditional_Statements/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.5_Complex_Conditional_Statements/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.6_Fixed_Loops_(for)/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.7_Conditional_Loops_(while)/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.8_Pre_Defined_Functions/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/5.9_Traversing_a_1d_Array/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/List.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/List2.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/List3.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/Simple-Conditional-Statements-.drawio.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L5/Images/Simple-Conditional-Statements-1.drawio.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.0_index copy/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.0_index/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.0_index12/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.10_File_Handling(.txt)/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.11_Algorithms_(Linear_Search)/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.12_Algorithms_(Finding_Min_and_Max)/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.13_Algorithms_(Count_Occurances)/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.1_Parallel_1D_Arrays/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.2_Records/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.3_Arrays_of_Records copy/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.3_Arrays_of_Records/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.4_Parameter_Passing/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.5_Scope_of_Variables/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.6_Sub-Programs_(Procedures)/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.7_Sub-Programs_(Functions)/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.8_Pre-Defined_Functions/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/6.9_File_Handling(.csv)/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Min-and-Max-1.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-1.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-2.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-3.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-4.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/Images/Parallel-1D-Arrays-5.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L6/bit_and_bobs.txt
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/4.7-Class/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/4.9-Objects/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/5.1-SQLite-with-Python/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.0_index copy/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.0_index/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.10_OOP_Inheritance/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.11_OOP_Instantiation/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.12_OOP_Polymorphism/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.13_Connect_to_DB/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.14_Binary_Search copy/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.14_Binary_Search/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.15_Insertation_Sort/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.15_Insertation_Sort1/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.16_Bubble_Sort/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.1_2d_Arrays/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.2_Insertation_Sorts/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.3_Linked_Lists/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.4_OOP_Object/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.5_OOP_Property/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.6_OOP_Method/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.7_OOP_Class/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.8_OOP_Sub_Class/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/7.9_OOP_Encapsulation/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/ComputerScience.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-1.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-2.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-3.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-4.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-5.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-6.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-7.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-8.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Insertion-Sort/Insertion-Sort-9.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-1.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-2.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-3.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-4.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Parallel-1D-Arrays-5.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/UML_Class_Diagram_1.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/UML_Class_Diagram_2.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Images/Under-Construction.png
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/Object_Oriented_Programming/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/4.0_Software_Implementation/L7/class_car().py
+site/Levels/Senior_Phase/Unit_1_SDD/5.0_Testing/L5/5.0_Home/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/5.0_Testing/L6/6.1-Trace-Tables/index.html
+site/Levels/Senior_Phase/Unit_1_SDD/6.0_Evaluation/L5/5.0_Home/index.html
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/5.0_Home/index.html
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Computer_Architecture_1.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Computer_Architecture_2.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Computer_Architecture_3.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Computer_Architecture_4.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Data_Representation_1.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Data_Representation_2.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Data_Representation_3.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Data_Representation_4.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Graphics_1.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Graphics_2.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Graphics_3.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Mantissa_and_Exponent_1.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Mantissa_and_Exponent_2.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Security_1.png
+site/Levels/Senior_Phase/Unit_2_CS/1.0_Data_Representation/L5/Images/Security_2.png
+site/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/5.0_Home/index.html
+site/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/Images/Computer_Architecture_1.png
+site/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/Images/Computer_Architecture_2.png
+site/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/Images/Computer_Architecture_3.png
+site/Levels/Senior_Phase/Unit_2_CS/2.0_Computer_Architecture/L5/Images/Computer_Architecture_4.png
+site/Levels/Senior_Phase/Unit_2_CS/3.0_Security_and_Encryption/L5/5.0_Home/index.html
+site/Levels/Senior_Phase/Unit_2_CS/3.0_Security_and_Encryption/L5/Images/Security_1.png
+site/Levels/Senior_Phase/Unit_2_CS/3.0_Security_and_Encryption/L5/Images/Security_2.png
+site/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/4.0_index/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/Images/04_01.png
+site/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/Images/04_02.png
+site/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/Images/04_03.png
+site/Levels/Senior_Phase/Unit_3_DDD/1.0_Database_Structure/L4|5|6|7/Images/04_04.png
+site/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L5/5.0_index/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L5/Data Protection/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L5/Images/02_01.png
+site/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L6/6.0_index/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/2.0_Analysis/L6/Images/02_01.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/3.1-DB-Relationships/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/3.2-Data-Dictionaries/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/3.3-Query-Design/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Attribute-Data-Types.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Attribute-Size.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Attribute-Types.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Example-Designing-a-Query.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Primary-Foreign-Key.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Query-Design-Example-Q.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/DB-Validation.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/Dog-Walkers.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/ERD.png
+site/Levels/Senior_Phase/Unit_3_DDD/3.0_Design/L5/Images/Mother-Child.png
+site/Levels/Senior_Phase/Unit_3_DDD/4.0_Implementation/L4-5/4.1-SQL-Select/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/4.0_Implementation/L4-5/4.2-SQL-Insert/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/4.0_Implementation/L4-5/4.3-SQL-Equi-Joins/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/5.0_Testing/5.1-DB-Testing/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/6.0_Evaluation/5.2-DB-Evaluation/index.html
+site/Levels/Senior_Phase/Unit_3_DDD/index.html
+site/Levels/Senior_Phase/Unit_4_WDD/Div_Class_Div_ID/index.html
+site/Levels/Senior_Phase/Unit_4_WDD/Picture 1.png
+site/Levels/Senior_Phase/Unit_4_WDD/css-selectors/index.html
+site/Levels/Senior_Phase/Unit_4_WDD/media-tags/index.html
+site/Program_Files/02-Scope-of-Variables-and-Parameter-Passing/Monthly-Pay-(Formal-and-Actual-Parameters)-Solution.py
+site/Program_Files/5.2-Glazing-Company.py
+site/Program_Files/Glazing_Company_Program.csv
+site/Program_Files/Golf-Championship.py
+site/Program_Files/Insertation-Sort-1D-Array.py
+site/Program_Files/Insertation-Sort-2D-Array.py
+site/Program_Files/Past-Papers/Example-1.pdf
+site/Program_Files/Past-Papers/Example-2.pdf
+site/Program_Files/Past-Papers/Example-3.pdf
+site/Program_Files/Past-Papers/NAH_Computing-Science_QP_2019.PDF
+site/Program_Files/Past-Papers/NAH_Computing-Science_QP_2022.PDF
+site/Program_Files/Past-Papers/NAH_Computing-Science_QP_2023.PDF
+site/Program_Files/Past-Papers/NAH_Computing-Science_QP_2024.PDF
+site/Styles/extra.css
+site/assets/images/favicon.png
+site/assets/javascripts/bundle.92b07e13.min.js
+site/assets/javascripts/bundle.92b07e13.min.js.map
+site/assets/javascripts/lunr/min/lunr.ar.min.js
+site/assets/javascripts/lunr/min/lunr.da.min.js
+site/assets/javascripts/lunr/min/lunr.de.min.js
+site/assets/javascripts/lunr/min/lunr.du.min.js
+site/assets/javascripts/lunr/min/lunr.el.min.js
+site/assets/javascripts/lunr/min/lunr.es.min.js
+site/assets/javascripts/lunr/min/lunr.fi.min.js
+site/assets/javascripts/lunr/min/lunr.fr.min.js
+site/assets/javascripts/lunr/min/lunr.he.min.js
+site/assets/javascripts/lunr/min/lunr.hi.min.js
+site/assets/javascripts/lunr/min/lunr.hu.min.js
+site/assets/javascripts/lunr/min/lunr.hy.min.js
+site/assets/javascripts/lunr/min/lunr.it.min.js
+site/assets/javascripts/lunr/min/lunr.ja.min.js
+site/assets/javascripts/lunr/min/lunr.jp.min.js
+site/assets/javascripts/lunr/min/lunr.kn.min.js
+site/assets/javascripts/lunr/min/lunr.ko.min.js
+site/assets/javascripts/lunr/min/lunr.multi.min.js
+site/assets/javascripts/lunr/min/lunr.nl.min.js
+site/assets/javascripts/lunr/min/lunr.no.min.js
+site/assets/javascripts/lunr/min/lunr.pt.min.js
+site/assets/javascripts/lunr/min/lunr.ro.min.js
+site/assets/javascripts/lunr/min/lunr.ru.min.js
+site/assets/javascripts/lunr/min/lunr.sa.min.js
+site/assets/javascripts/lunr/min/lunr.stemmer.support.min.js
+site/assets/javascripts/lunr/min/lunr.sv.min.js
+site/assets/javascripts/lunr/min/lunr.ta.min.js
+site/assets/javascripts/lunr/min/lunr.te.min.js
+site/assets/javascripts/lunr/min/lunr.th.min.js
+site/assets/javascripts/lunr/min/lunr.tr.min.js
+site/assets/javascripts/lunr/min/lunr.vi.min.js
+site/assets/javascripts/lunr/min/lunr.zh.min.js
+site/assets/javascripts/lunr/tinyseg.js
+site/assets/javascripts/lunr/wordcut.js
+site/assets/javascripts/workers/search.973d3a69.min.js
+site/assets/javascripts/workers/search.973d3a69.min.js.map
+site/assets/stylesheets/main.7e37652d.min.css
+site/assets/stylesheets/main.7e37652d.min.css.map
+site/assets/stylesheets/palette.06af60db.min.css
+site/assets/stylesheets/palette.06af60db.min.css.map
+site/index.html
+site/scripts/extra.js
+site/search/search_index.json
+site/sitemap.xml
+site/sitemap.xml.gz
