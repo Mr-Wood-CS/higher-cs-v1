@@ -1,9 +1,8 @@
-site_name: Pixel&Wood Computing Science Tuition
+site_name: Unit 1 - Development Methodologies
 
 nav:
     - Home: 'index.md'
-    - Development Methodologies:
-      - Home: 'Homepages/2.0_S1_Home.md'
+    - Development Methodologies: '1.0-development-methodologies'
       
 markdown_extensions:
       - admonition
@@ -34,20 +33,10 @@ theme:
   name: material
   font:
     text: Quicksand
-  palette: 
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
-
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+  palette:
+    scheme: default
+    primary: blue
+    accent: deep orange
   icon:
     admonition:
       note: fontawesome/solid/note-sticky
@@ -82,4 +71,3 @@ extra_css:
 extra_javascript:
   - scripts/extra.js
     
-
