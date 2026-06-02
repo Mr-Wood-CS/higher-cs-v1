@@ -5,14 +5,6 @@
   
 }
 
-.md-typeset details.question {
-  font-size: 1.08rem;
-}
-
-.md-typeset details.question summary {
-  font-size: 1rem;
-}
-
 a.back-button.md-button {
   position: fixed;
   top: 5rem;
